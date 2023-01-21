@@ -14,7 +14,13 @@
                   cursor: pointer;
                 }
                 
-                .button1 {background-color: #ffffff;}
+                .button1 {background-color: red;}
+                .button2 {background-color: blue;}
+                .button3 {background-color: green;}
+                
+                .button1:hover{background-color: green;transition: 1s}
+                .button2:hover{background-color: red; transition: 1s}
+                .button3:hover{background-color: blue; transition: 1s}
 
                 .center 
                 {
@@ -37,20 +43,20 @@
 </head>
 
 <body> 
-        <h1> <p style="text-align: center">Two doors are in front of you</p>
+        <h1> <p style="text-align: center">The red door will take you to the next room</p>
         </h1>
         
         <div class="center">
         <a href=Start.html>
-                <button class="button button1">Go Back</button>
+                <button class="button button1">Door 1</button>
                 </a>
 
         <a href=Room2.html>
-                <button class="button button1">Open door 1</button>
+                <button class="button button2">Door 2</button>
         </a>
 
-        <a href=End.html>
-                <button class="button button1">Open door 2</button>
+        <a href=Start.html>
+                <button class="button button3">Door 3</button>
         </a>
         </div>
 
