@@ -1,25 +1,54 @@
 <html>
 
 <head> <title> Room 1 </title>
+        <style>
+                .button {
+                  border: none;
+                  color: black;
+                  padding: 40px 40px;
+                  text-align: center;
+                  text-decoration: none;
+                  display: inline-block;
+                  font-size: 16px;
+                  margin: 4px 20px;
+                  cursor: pointer;
+                }
+                
+                .button1 {background-color: #ffffff;}
+
+                .center 
+                {
+                margin: 0;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                -ms-transform: translate(-50%, -50%);
+                transform: translate(-50%, -50%);
+                }
+
+                body {
+                        background-color: grey;
+                }
+        </style>
 </head>
 
-
-
 <body> 
-        <h1> Two doors are in front of you
+        <h1> <p style="text-align: center">Two doors are in front of you</p>
         </h1>
-
+        
+        <div class="center">
         <a href=Start.html>
-                <button type="button">Go Back</button>
+                <button class="button button1">Go Back</button>
                 </a>
 
         <a href=Room2.html>
-                <button type="button">Open door 1</button>
+                <button class="button button1">Open door 1</button>
         </a>
 
         <a href=End.html>
-                <button type="button">Open door 2</button>
+                <button class="button button1">Open door 2</button>
         </a>
+        </div>
 
 </body>
 

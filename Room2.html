@@ -1,19 +1,50 @@
 <html>
 
 <head> <title> Room 2 </title>
+    <style>
+        .button {
+          border: none;
+          color: black;
+          padding: 40px 40px;
+          text-align: center;
+          text-decoration: none;
+          display: inline-block;
+          font-size: 16px;
+          margin: 4px 20px;
+          cursor: pointer;
+        }
+        
+        .button1 {background-color: #ffffff;}
+        
+        .center 
+                {
+                margin: 0;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                -ms-transform: translate(-50%, -50%);
+                transform: translate(-50%, -50%);
+                }
+
+        body {
+                background-color: grey;
+        }
+</style>
 </head>
 
 
 
 <body> 
-        <h1> There's something shiny on the floor
+        <h1> <p style="text-align: center">There's something shiny on the floor</p>
         </h1>
 
+        <div class="center">
         <a href= Room1.html>
-                <button type="button">Go Back</button>
+            <button class="button button1">Go Back</button>
         </a>
 
-        <button type="button">Inspect shiny object</button>
+        <button class="button button1">Inspect shiny object</button>
+        </div>
 
 
 </body>
