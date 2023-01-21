@@ -2,6 +2,7 @@
 
 <head> <title> Starting Room </title>
         <style>
+                /*button characteristics*/
                 .button 
                 {
                   border: none;
@@ -14,9 +15,10 @@
                   margin: 4px 20px;
                   cursor: pointer;
                 }
-                
+                /*Background for button 1*/
                 .button1 {background-color: #ffffff;}
 
+                /*center class for centering buttons*/
                 .center 
                 {
                 margin: 0;
@@ -27,7 +29,7 @@
                 transform: translate(-50%, -50%);
                 }
 
-                body 
+                body /*background picture*/
                 {
                         background-image: url('start.jpg');
                         background-repeat: no-repeat;
@@ -38,10 +40,10 @@
 </head>
 
 <body> 
-        <h1> <p style="text-align: center; color: grey;">There is a door in front of you </p>
+        <h1> <p style="text-align: center; color: grey;">You find yourself at the start </p>
         </h1>
 
-
+        <!--Button, once clicked will bring you to next "Room" (Room1.html)-->
         <a href= Room1.html>
                 <div class="center">
                 <button class="button button1">Open door</button>

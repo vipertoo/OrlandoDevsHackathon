@@ -15,6 +15,7 @@
           cursor: pointer;
         }
         
+        /*setting colors for both buttons, button 2 will change color to white once the mouse has hovered over it*/
         .button1 {background-color: #ffffff;}
         .button2 {background-color: black;}
         .button2:hover {background-color: white; transition: 0.7s;}
@@ -47,12 +48,14 @@
         <h1> <p style="text-align: center; color: grey;">Not everything is what it seems</p>
         </h1>
 
+        <!--Button that will send player back to start once pressed-->
         <div class="center">
         <a href= Start.html>
             <button class="button button1">Open Door</button>
         </a>
         </div>
 
+        <!--Hidden button that will change color once hovered over, will send player to next room-->
         <h2 class="pos_hidden">
             <a href = Room3.html>
                 <button class="button button2">Hidden Door</button>
